@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Recipe App</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <section class="absoulte">
+    <a href="/index.html">Go back ↩️</a>
+  </section>
+  <div class="header-text">
+    <h1>Food Recipe App</h1>
+  </div>
+  <style>
+    .header-text {
+      position: absolute;
+      top: 0px;
+      right: 10px;
+      color: #fff;
+      /* width: 100%; */
+    }
+
+    .header-text h1 {
+      font-weight: lighter;
+      font-size: calc(1rem + 2vw);
+    }
+  </style>
+  <div class="container">
+    <div class="search-container">
+      <input type="text" placeholder="Type A Dish Name Here.." id="user-inp" />
+      <button id="search-btn">Search</button>
+    </div>
+    <div id="result"></div>
+  </div>
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+
+</html>
